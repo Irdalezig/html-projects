@@ -1,0 +1,83 @@
+body {
+    font-family:  Arial, sans-serif;
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(121, 120, 120);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #bc3084;
+    color: white;
+  }
+  
+header{
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4 ;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+.project {
+    width: 200px; /* Square dimensions */
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    display:inline-block;
+    text-align: center;
+    line-height: 200px; /* Vertically centers the text */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   justify-content: space-between; /* Alinha os itens ao longo do eixo principal */  
+   flex-wrap: wrap; /* Permite que as divs quebrem para a linha seguinte se não houver espaço */ 
+}
+
+
+.project:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+h1, h2 {
+    color: #333;
+}
+
+#bio, #work {
+    background-color: #e9e9e9;
+    padding: 15px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
